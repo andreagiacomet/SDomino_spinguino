@@ -1,4 +1,4 @@
-﻿namespace PizzeriaPinguino
+﻿namespace PizzeriaPinguino.Model
 {
     public abstract class Impasto : IIdentity
     {

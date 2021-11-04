@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "PizzeriaPinguino.Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/PizzeriaPinguino.Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PizzeriaPinguino.Model.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "PizzeriaPinguino.Model/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibrary1/PizzeriaPinguino.Model.csproj",
-      "msbuildProject": "../ClassLibrary1/PizzeriaPinguino.Model.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "PizzeriaPinguino.Model >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\mob11\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mob11\\Desktop\\SDomino_spinguino\\ClassLibrary1\\PizzeriaPinguino.Creation\\PizzeriaPinguino.Creation.csproj",
-      "projectName": "PizzeriaPinguino.Creation",
-      "projectPath": "C:\\Users\\mob11\\Desktop\\SDomino_spinguino\\ClassLibrary1\\PizzeriaPinguino.Creation\\PizzeriaPinguino.Creation.csproj",
+      "projectUniqueName": "C:\\Users\\mob11\\Desktop\\SDomino_spinguino\\ClassLibrary1\\PizzeriaPinguino.DataProvider\\PizzeriaPinguino.DataProvider.csproj",
+      "projectName": "PizzeriaPinguino.DataProvider",
+      "projectPath": "C:\\Users\\mob11\\Desktop\\SDomino_spinguino\\ClassLibrary1\\PizzeriaPinguino.DataProvider\\PizzeriaPinguino.DataProvider.csproj",
       "packagesPath": "C:\\Users\\mob11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mob11\\Desktop\\SDomino_spinguino\\ClassLibrary1\\PizzeriaPinguino.Creation\\obj\\",
+      "outputPath": "C:\\Users\\mob11\\Desktop\\SDomino_spinguino\\ClassLibrary1\\PizzeriaPinguino.DataProvider\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,11 +37,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\Users\\mob11\\Desktop\\SDomino_spinguino\\ClassLibrary1\\ClassLibrary1\\PizzeriaPinguino.Model.csproj": {
-              "projectPath": "C:\\Users\\mob11\\Desktop\\SDomino_spinguino\\ClassLibrary1\\ClassLibrary1\\PizzeriaPinguino.Model.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

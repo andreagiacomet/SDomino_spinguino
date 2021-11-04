@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PizzeriaPinguino
+namespace PizzeriaPinguino.Model
 {
     public interface IIdentity
     {
